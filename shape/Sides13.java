@@ -18,7 +18,7 @@ public class Sides13 implements Shape
     }
     
     public double getArea() {
-        return 1/2 * base * height * 13;
+        return 1/2 * base * 13 * (base/(2*Math.tan(180/13))); 
     }
     
     public double getPerimeter() {
